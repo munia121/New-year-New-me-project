@@ -43,3 +43,61 @@
     color: #FFF;
     border: 0;
 }
+
+/* main images parts */
+
+.container{
+    margin-top: 110px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+}
+.containar-info-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.containar-info-des{
+    margin-top: 24px;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.tick-info p{
+    margin-top: 16px;
+}
+.containar-info{
+    padding-top: 15%;
+    width: 500px;
+}
+
+/* My plans parts */
+
+.plans{
+    margin-top: 100px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.plans-container{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 98px;
+    text-align: center;
+}
+.want-to{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.plans-title{
+    margin-top: 18px;
+}
