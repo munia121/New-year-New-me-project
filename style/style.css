@@ -47,10 +47,22 @@
 /* main images parts */
 
 .container{
-    margin-top: 110px;
+    margin-top: 70px;
     gap: 100px;
     display: flex;
     justify-content: center;
+}
+
+.image {
+    margin-top: 100px;
+    background-color: indianred;
+    border-radius: 70%;
+    background-position:center;
+}
+
+img{
+
+
 }
 .containar-info-title{
     color: #151414;
@@ -100,4 +112,31 @@
 }
 .plans-title{
     margin-top: 18px;
+}
+
+
+.contant{
+    margin-top: 80px;
+    background-position: center;
+    background-image: url(../images/gradient3.png) ,url(../images/watch.png);
+    background-repeat: no-repeat;
+    padding: 50px 100px;
+}
+.contant-info{
+    margin-left: 20%;
+}
+
+.contant-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btton{
+    padding: 15px 20px;
+    color: #F15B22;
+    background-color: #FFF;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 24px;
 }
