@@ -3,12 +3,18 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+
+.headerd{
+
+}
 .header{
     background-image: url(../images/banner/banner1.png);
-    height: 808px;
+    /* height: 808px; */
+    height: 90vh;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    background-size: cover;
     /* background-position: center; */
 }
 
@@ -115,15 +121,20 @@ img{
 }
 
 
-.contant{
+.contants{
+    width: 1140px;
+    margin: auto;
+    border-radius: 8px;
     margin-top: 80px;
     background-position: center;
     background-image: url(../images/gradient3.png) ,url(../images/watch.png);
     background-repeat: no-repeat;
-    padding: 50px 100px;
+    /* padding: 50px 100px; */
+    
 }
 .contant-info{
-    margin-left: 20%;
+    padding: 30px;
+    margin-left: 10%;
 }
 
 .contant-title{
@@ -139,4 +150,51 @@ img{
     border: 0;
     border-radius: 3px;
     margin-top: 24px;
+}
+
+/* footer part */
+.footer-container {
+    margin-top: 130px;
+    display: flex;
+    width: 100%;
+    gap: 20%;
+    background-color: #151414;
+    justify-content: center;
+    padding: 130px 0;
+}
+
+.footer-container-dis{
+    color: #FFF;
+}
+.footer-pera{
+    width: 485px;
+    margin-top: 16px;
+}
+.icons{
+    margin-top: 32px;
+}
+.icons img{
+    margin-right: 10px;
+}
+
+.footer-input{
+    color: #FFF;
+}
+input[type="email"]{
+    color:  #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #060000;
+    width: 325px;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.sub-btn{
+    padding: 15px 35px;
+    margin-top: 20px;
+    color: #fa4f0b;
 }
